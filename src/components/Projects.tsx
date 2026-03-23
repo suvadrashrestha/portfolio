@@ -28,8 +28,8 @@ const Projects: React.FC = () => {
         "Portfolio Website is a personal web project that showcases my skills, projects, and contact information. It includes sections for About Me, Projects, Skills, and Contact, providing visitors with an easy way to view my work. The website is designed with a responsive layout to look good on all devices and demonstrates my abilities in UI design and web layout.",
       tech: ["React", "Tailwind CSS"],
       img: "portfolio.png",
-      github: "#",
-      live: "#",
+      github: "https://github.com/suvadrashrestha/portfolio",
+      live: "https://portfolio-beta-hazel-59.vercel.app/",
     },
   ];
 
