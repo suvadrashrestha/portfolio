@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --background-dark: #0d0d1f;
+}
+
+body {
+  background-color: var(--background-dark);
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  position: absolute;
+  z-index: 999999;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  box-shadow: 0 0 30px red;
+  transition: all 0.3 ease;
+}
